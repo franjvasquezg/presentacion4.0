@@ -28,22 +28,7 @@
 	
 	background-color: rgba(171, 209, 72, 255);
 }
-.color-2 {
-	background-color: #acd148;
-	background-color: rgba(235, 187, 188, 1);
-}
-.color-3 {
-	background-color: #EED9C0;
-	background-color: rgba(238, 217, 192, 1);
-}
-.color-4 {
-	background-color: #DFEBB1;
-	background-color: rgba(223, 235, 177, 1);
-}
-.color-5{
-	background-color: #C1E6E5;
-	background-color: rgba(193, 230, 229, 1);
-}
+
 .step {	
 	width: 900px;
     height: 420px;
@@ -219,13 +204,16 @@ a.jms-link{
 	padding: 0px;
 	margin: 0px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 17px;
 	line-height: 2em;
+	color: #fff;
 }
 ul li
 {
 	
 	padding-left: 20px;
+	list-style-type:circle;
+	
 }
 
 

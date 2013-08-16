@@ -53,16 +53,16 @@
 						   con las sigientes caracaterisiricas:</p>
 						   <br>
  						   <ul> 
-						    <li>*Escritorio Gnome 3.4</li>
-    						    <li>*Kernel Linux 3.2.0</li>
-    						    <li>*Servidor de ventanas X.org 7.7</li>
-    						    <li>*Suite Ofimática LibreOffice 4.0.1</li>
-    						    <li>*Navegador Web Cunaguaro 22.0</li>
-    						    <li>*Cliente de Correo Guácharo 17.0.5</li>
-    						    <li>*Programa de manipulación de imágenes GIMP 2.8</li>
-    						    <li>*Editor de gráficos vectoriales Inkscape 0.48</li>
-    						    <li>*Lenguaje Python 2.7/3.2</li>
-    						    <li>*Lenguaje Perl 5.14</li>
+						    <li>Escritorio Gnome 3.4</li>
+    						    <li>Kernel Linux 3.2.0</li>
+    						    <li>Servidor de ventanas X.org 7.7</li>
+    						    <li>Suite Ofimática LibreOffice 4.0.1</li>
+    						    <li>Navegador Web Cunaguaro 22.0</li>
+    						    <li>Cliente de Correo Guácharo 17.0.5</li>
+    						    <li>Programa de manipulación de imágenes GIMP 2.8</li>
+    						    <li>Editor de gráficos vectoriales Inkscape 0.48</li>
+    						    <li>Lenguaje Python 2.7/3.2</li>
+    						    <li>Lenguaje Perl 5.14</li>
 						</ul>
 					</div>
 					<img src="images/1.png" />
@@ -74,16 +74,16 @@
 					<div class="jms-content">
 						<h3>Paquetes Canaima 4.0</h3>
 						 <ul> 
-						    <li>*Canaima-semilla</li>
-    						    <li>*Canaima-notas-gnome</li>
-    						    <li>*Canaima-plymouth</li>
-    						    <li>*Guacharo </li>
-    						    <li>*Cunaguaro </li>
-    						    <li>*Software-center</li>
-    						    <li>*Canaima-accesibilidad-gdm-gnome)</li>
-    						    <li>*Prometeo-abc </li>
-						    <li>*Gnome-shell-extensions-gnamon </li>
-						    <li>*Canaima-bienvenido-gnome</li>
+						    <li>Canaima-semilla</li>
+    						    <li>Canaima-notas-gnome</li>
+    						    <li>Canaima-plymouth</li>
+    						    <li>Guacharo </li>
+    						    <li>Cunaguaro </li>
+    						    <li>Software-center</li>
+    						    <li>Canaima-accesibilidad-gdm-gnome)</li>
+    						    <li>Prometeo-abc </li>
+						    <li>Gnome-shell-extensions-gnamon </li>
+						    <li>Canaima-bienvenido-gnome</li>
 						</ul>
 					</div>
 					<img src="images/4.png" />
@@ -100,23 +100,13 @@
 						<ul>
 							<li>Se realizaron adaptaciones a todas las aplicaciones nativas 
                                                 para la internacionalización.</li>
- 
                                                 	<li>La incorporación de Jockey</li>
-						</ul>
-					</div>
-					<img src="images/5.png" />
-				</div>
-				<div class="step" data-color="color-1" data-x="5500" data-z="1000" data-rotate-y="45">
-					<div class="jms-content">
-						<h3>Que tiene hay de nuevo en 4.0 </h3>
-						<ul>
 							<li>El instalador de Canaima tiene soporte de accesibilidad para las personas 
 							con discapacidad visual</li>
 						        <li>Rediseño de la aplicación Canaima-bienvenido basando en huayra-bullets .</li>
 						</ul>
-
 					</div>
-					
+					<img src="images/5.png" />
 				</div>
 				<div class="step" data-color="color-1" data-x="6500" data-z="1000" data-rotate-y="45">
 					<div class="jms-content">
