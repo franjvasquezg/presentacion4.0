@@ -50,7 +50,7 @@
 					<div class="jms-content">
 						<h3>Canaima 4.0!!</h3>
 						<p>Canaima 4.0 esta basada en debian (7) nombre codigo "wheezy"  
-						   con las sigientes caracaterisiricas:</p>
+						   con las siguientes caracaterisiricas:</p>
 						   <br>
  						   <ul> 
 						    <li>Escritorio Gnome 3.4</li>
@@ -73,6 +73,7 @@
 				<div class="step" data-color="color-1" data-x="2000" data-z="3000" data-rotate="170">
 					<div class="jms-content">
 						<h3>Paquetes Canaima 4.0</h3>
+						 <br>
 						 <ul> 
 						    <li>Canaima-semilla</li>
     						    <li>Canaima-notas-gnome</li>
@@ -97,12 +98,12 @@
 				<div class="step" data-color="color-1" data-x="4500" data-z="1000" data-rotate-y="45">
 				        <div class="jms-content">
 						<h3>Que tiene hay de nuevo en 4.0 </h3>
+						 <br>
 						<ul>
-							<li>Se realizaron adaptaciones a todas las aplicaciones nativas 
-                                                para la internacionalización.</li>
-                                                	<li>La incorporación de Jockey</li>
-							<li>El instalador de Canaima tiene soporte de accesibilidad para las personas 
-							con discapacidad visual</li>
+							<li>Se añadio soporte de internacionalización para las aplicaciones nativas 
+				</li>
+                                                	<li>Se implemento un detector automático de hardware (Jockey)</li>
+							<li>Se añadio soporte de accesibilidad al instalador y aplicaciones de Canaima</li>
 						        <li>Rediseño de la aplicación Canaima-bienvenido basando en huayra-bullets .</li>
 						</ul>
 					</div>
@@ -111,6 +112,7 @@
 				<div class="step" data-color="color-1" data-x="6500" data-z="1000" data-rotate-y="45">
 					<div class="jms-content">
 						<h3>Proyectos futuros </h3>
+						 <br>
 						<ul>
 							<li>Implementar una metodología de actualización de kernels</li>
 						        <li>Agregar la opción de seleccionar un entorno para tabletas en el instalador</li>
