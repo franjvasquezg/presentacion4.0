@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Slideshow with jmpress.js</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Slideshow with jmpress.js" />
+        <meta name="keywords" content="jmpress, slideshow, container, plugin, jquery, css3" />
+        <meta name="author" content="for Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/style_ie.css" />
+		<![endif]-->
+		<!-- jQuery -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<!-- jmpress plugin -->
+		<script type="text/javascript" src="js/jmpress.min.js"></script>
+		<!-- jmslideshow plugin : extends the jmpress plugin -->
+		<script type="text/javascript" src="js/jquery.jmslideshow.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.48780.js"></script>
+		<noscript>
+			<style>
+			.step {
+				width: 100%;
+				position: relative;
+			}
+			.step:not(.active) {
+				opacity: 1;
+				filter: alpha(opacity=99);
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+			}
+			.step:not(.active) a.jms-link{
+				opacity: 1;
+				margin-top: 40px;
+			}
+			</style>
+		</noscript>
+    </head>
+    <body>
+        <div class="container">
+			<header>
+				
+			</header>
+			<section id="jms-slideshow" class="jms-slideshow">
+				<div class="step" data-color="color-1">
+					<div class="jms-content">
+						<h3>Canaima 4.0!!</h3>
+						<p>Canaima 4.0 esta basada en debian (7) nombre codigo "wheezy"  
+						   con las sigientes caracaterisiricas:</p>
+						   <br>
+ 						   <ul> 
+						    <li>*Escritorio Gnome 3.4</li>
+    						    <li>*Kernel Linux 3.2.0</li>
+    						    <li>*Servidor de ventanas X.org 7.7</li>
+    						    <li>*Suite Ofimática LibreOffice 4.0.1</li>
+    						    <li>*Navegador Web Cunaguaro 22.0</li>
+    						    <li>*Cliente de Correo Guácharo 17.0.5</li>
+    						    <li>*Programa de manipulación de imágenes GIMP 2.8</li>
+    						    <li>*Editor de gráficos vectoriales Inkscape 0.48</li>
+    						    <li>*Lenguaje Python 2.7/3.2</li>
+    						    <li>*Lenguaje Perl 5.14</li>
+						</ul>
+					</div>
+					<img src="images/1.png" />
+				</div>
+				<div class="step" data-color="color-1" data-y="500" data-scale="0.4" data-rotate-x="30">
+					<img aling="center" src="images/2.png" />	 
+				</div>
+				<div class="step" data-color="color-1" data-x="2000" data-z="3000" data-rotate="170">
+					<div class="jms-content">
+						<h3>Paquetes Canaima 4.0</h3>
+						 <ul> 
+						    <li>*Canaima-semilla</li>
+    						    <li>*Canaima-notas-gnome</li>
+    						    <li>*Canaima-plymouth</li>
+    						    <li>*Guacharo </li>
+    						    <li>*Cunaguaro </li>
+    						    <li>*Software-center</li>
+    						    <li>*Canaima-accesibilidad-gdm-gnome)</li>
+    						    <li>*Prometeo-abc </li>
+						    <li>*Gnome-shell-extensions-gnamon </li>
+						    <li>*Canaima-bienvenido-gnome</li>
+						</ul>
+					</div>
+					<img src="images/4.png" />
+				</div>
+				<div class="step" data-color="color-1" data-x="3000">
+					<div class="jms-content">
+						<h3>Origen de los paquetes según distribución</h3>
+					</div>
+					<img src="images/3.png" />
+				</div>
+				<div class="step" data-color="color-1" data-x="4500" data-z="1000" data-rotate-y="45">
+				        <div class="jms-content">
+						<h3>Que tiene hay de nuevo en 4.0 </h3>
+						<ul>
+							<li>Se realizaron adaptaciones a todas las aplicaciones nativas 
+                                                para la internacionalización.</li>
+ 
+                                                	<li>La incorporación de Jockey</li>
+						</ul>
+					</div>
+					<img src="images/5.png" />
+				</div>
+				<div class="step" data-color="color-1" data-x="5500" data-z="1000" data-rotate-y="45">
+					<div class="jms-content">
+						<h3>Que tiene hay de nuevo en 4.0 </h3>
+						<ul>
+							<li>El instalador de Canaima tiene soporte de accesibilidad para las personas 
+							con discapacidad visual</li>
+						        <li>Rediseño de la aplicación Canaima-bienvenido basando en huayra-bullets .</li>
+						</ul>
+
+					</div>
+					
+				</div>
+				<div class="step" data-color="color-1" data-x="6500" data-z="1000" data-rotate-y="45">
+					<div class="jms-content">
+						<h3>Proyectos futuros </h3>
+						<ul>
+							<li>Implementar una metodología de actualización de kernels</li>
+						        <li>Agregar la opción de seleccionar un entorno para tabletas en el instalador</li>
+							<li>Agregar la opción de seleccionar un entorno para tabletas en el instalador</li>
+							<li>Compilar los paquetes e imágenes ISO para arquitecturas armhf y armel.</li>
+							<li>Estudiar la incorporación del repositorio backports en la sección aportes</li>
+						</ul>
+
+					</div>
+					
+				</div>
+				<div class="step" data-color="color-1" data-x="7500" data-z="1000" data-rotate-y="45">
+					<div class="jms-content">
+						<h3>Como Colaborar </h3>
+						<ul>
+							<li></li>
+						        <li>Rediseño de la aplicación Canaima-bienvenido basando en huayra-bullets de
+							 la distribución argentina Huayra Linux.</li>
+						</ul>
+
+					</div>
+					
+				</div>
+			</section>
+        </div>
+		<script type="text/javascript">
+			$(function() {
+			
+				$( '#jms-slideshow' ).jmslideshow();
+				
+			});
+		</script>
+    </body>
+</html>
